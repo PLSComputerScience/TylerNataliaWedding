@@ -5,3 +5,4 @@
 #   Also playing around with rosybrown for the rose color style. Looks good
 #   Still need testimonials and to add directions api into website
 #   Reminder to buy and add domain soon 
+Testing editing the README
