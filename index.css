@@ -1,5 +1,7 @@
 .body {
     font-family: 'Tangerine', serif;;
+    text-align: center;
+    color: #0C2340;
 }
 
 .jumbotron {
@@ -7,7 +9,24 @@
     font-size: 75px;
 }
 
+.display-1 {
+    font-size: 9rem;
+}
 .lead {
-    font-size: 40px; 
+    font-size: 30px; 
     text-align: center;
+}
+
+.navbar {
+    font-size:xx-large;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+}
+.space-divider {
+    width: 10%;
+}
+
+.nav-item:hover {
+    color: #0C2340;
 }
