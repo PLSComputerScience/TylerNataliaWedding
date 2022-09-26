@@ -11,41 +11,44 @@
     <title>Document</title>
 </head>
 <body class="body">
-
+<!--Start of Jumbotron-->
   <div class="jumbotron d-flex flex-row bd-highlight m-3 jumbotron-fluid">
       <img class="flower p-2 mx-auto d-block img-thumbnail float-left" src="/assets/flower.png" />
-      <div>
-        <h1 class="display-2 p-2 bd-highlight flex-column text-center">Tyler and Natalia</h1>
-        <p class="lead text-center flex-column bd-highlight">Join us for our special day on May 1st, 2023. 
-          Please RSVP by April 1st, 2023.</p>
+      <div class="container">
+        <h1 class="header-padding display-1 p-2 bd-highlight flex-column text-center">Tyler & Natalia</h1>
+        <p class="lead text-center flex-column bd-highlight">Join us for our special day on May 1st, 2023. </p>
+        <p class="lead">  Please RSVP by April 1st, 2023.</p>
       </div>
         <img class="flower mx-auto d-block img-thumbnail " src="/assets/flower.png" />
   </div>
-  
+<!--Ending of Jumbotron-->
+<!--Starting of navbar -->
   <nav class="navbar navbar-expand-lg">
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav justify-content-between w-75">
+        <ul class="navbar-nav justify-content-between w-75 nav-fill">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Info</a>
+            <a class="nav-link" aria-current="page" href="#"><b>Info</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">RSVP</a>
+            <a class="nav-link" aria-current="page" href="#"><b>RSVP</b></a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link space-divider"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Stays</a>
+            <a class="nav-link" href="#"><b>Stays</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Directions</a>
+            <a class="nav-link" href="#"><b>Directions</b></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <div class="card mb-3" style="max-width: 540px;">
+<!--End of Navbar-->
+  <br>
+<!--Beggining of Info Card Content-->
+  <div class="card mb-3 text-center" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
         <img src="..." class="img-fluid rounded-start" alt="...">
@@ -59,12 +62,45 @@
       </div>
     </div>
   </div>
+<!--End of info card contente-->
 
+  <h1>Tyler&Natalia's Wedding</h1>
+  <!--Form Content Section -->
+  <div class="container container-form">
+    <form action="">
+      <div class="mb-2 row">
+        <label for="exampleInputEmail1" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="row g-2">
+        <div class="col-md">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" aria-describedby="partNameHelp">
+        </div>
+        <div class="col-md">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName">          
+        </div>
+      </div>
+      <br>
+      <div class="mb-3">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Party Size</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5+</option>
+        </select>
+      </div>
+      <p1> Fuck You </p1>
+      <button>RSVP</button>
+    </form>
+  </div>
+ 
+  <!-- end of form content-->
 
-  <h1>Tyler And Natalias Wedding</h1>
-  <p1> Fuck You </p1>
-  <button>RSVP</button>
-  <h3>Get your hotel fucking booked</h3>
+  <h3>Get your hotel fucking booked</h3><!--Fancy up the button, make it not look lame af-->
   <a href="https://www.hotels.com/Hotel-Search?adults=2&d1=2023-05-12&d2=2023-05-14&destination=26130%20SE%20Green%20Valley%20Rd%2C%20Black%20Diamond%2C%20WA%2098010%2C%20USA&endDate=2023-05-14&latLong=%2C&regionId=&selected=&semdtl=&sort=RECOMMENDED&startDate=2023-05-12&theme=&useRewards=false&userIntent=" target="_blank"> STAY HERE</a>
   
 </body>
