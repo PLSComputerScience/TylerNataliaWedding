@@ -1,3 +1,13 @@
-body {
-    background-color: #FFF1FF;
+.body {
+    font-family: 'Tangerine', serif;;
+}
+
+.jumbotron {
+    padding: 20px;
+    font-size: 75px;
+}
+
+.lead {
+    font-size: 40px; 
+    text-align: center;
 }
