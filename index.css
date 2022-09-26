@@ -1,13 +1,25 @@
 .body {
-    font-family: 'Tangerine', serif;;
+    font-family: 'Tangerine', serif;
+    text-align: center;
 }
 
 .jumbotron {
     padding: 20px;
     font-size: 75px;
+    color: #0C2340;
 }
 
 .lead {
     font-size: 40px; 
     text-align: center;
+    color: #0C2340;
+}
+
+.flower {
+    width: 25%;
+    height: 25%;
+}
+
+.flower2 {
+    transform: scaleX(-1);
 }
