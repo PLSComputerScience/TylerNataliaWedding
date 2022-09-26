@@ -5,6 +5,10 @@
     font-size: larger;
 }
 
+.rose-text-color {
+    color: rosybrown !important;
+}
+
 .jumbotron {
     padding: 20px;
     font-size: 75px;
@@ -37,18 +41,25 @@
     padding-bottom: 0%;
     margin-bottom: 0%;
     border-bottom: 1px solid rgb(12, 35, 64, .2);
+    background-color: #0C2340;
+}
+.nav-link {
+    color: rosybrown;
 }
 .space-divider {
     width: 10%;
 }
 
 .nav-link:hover {
-    color: rosybrown;
-    background-color: #0C2340;
+    color: #0C2340;
+    background-color: rosybrown;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
-
+.rsvp {
+    font-size: 1.2rem;
+    width: 6em;
+}
 .header-padding {
     padding-bottom: 0%;
     margin: none;
@@ -77,4 +88,8 @@ form {
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: #0C2340;
+}
+.book-now-btn{
+    font-size: xx-large;
+    width: 12rem;
 }
