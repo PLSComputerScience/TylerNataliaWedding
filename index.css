@@ -3,12 +3,15 @@
     text-align: center;
     color: #0C2340;
     font-size: larger;
+    background-color: rgb(255, 249, 241);
 }
 
 .rose-text-color {
     color: rosybrown !important;
 }
-
+.hidden-nonmobile {
+    display: none;
+}
 .jumbotron {
     padding: 20px;
     font-size: 75px;
@@ -40,7 +43,6 @@
     padding-top: 0%;
     padding-bottom: 0%;
     margin-bottom: 0%;
-    border-bottom: 1px solid rgb(12, 35, 64, .2);
     background-color: #0C2340;
 }
 .nav-link {
@@ -71,6 +73,35 @@
 }
 .container-form {
     width: 40%;
+}
+@media screen and (max-width:525px) {
+    .container-form {
+        width: 90%;
+    }
+    img.flower {
+        display: none !important;
+    }
+    .display-1 {
+        font-size: 5rem !important;
+    }
+    .mobile-max-width {
+        width: 100% !important;
+        display: block;
+        padding: none !important;
+        display: inline !important;
+        font-size: 8rem !important;
+    }
+    .hidden-nonmobile {
+        display: flex;
+        border: 10px solid rosybrown;
+        margin: none !important;
+    }
+    .jumbotron {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
 }
 .card {
     margin: 0 auto;
