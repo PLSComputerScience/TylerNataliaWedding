@@ -66,6 +66,9 @@
     padding-bottom: 0%;
     margin: none;
 }
+.card-title {
+    font-size: 3rem !important;
+}
 .form-label {
     font-size: 1.2em;
     padding-bottom: 0%;
