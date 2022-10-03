@@ -21,6 +21,11 @@
 .display-1 {
     font-size: 9rem;
 }
+.jumbotron-header {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
 .lead {
     font-size: 30px; 
     text-align: center;
@@ -69,6 +74,9 @@
 .card-title {
     font-size: 3rem !important;
 }
+.card-text {
+    font-size: x-large;
+}
 .form-label {
     font-size: 1.2em;
     padding-bottom: 0%;
@@ -105,6 +113,9 @@
         margin-left: 0% !important;
         margin-right: 0% !important;
     }
+    .body {
+        margin: 15px;
+    }
 }
 .card {
     margin: 0 auto;
@@ -126,4 +137,7 @@ form {
 .book-now-btn{
     font-size: xx-large;
     width: 12rem;
+}
+.footer {
+    background-color: rosybrown;
 }
