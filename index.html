@@ -13,12 +13,12 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar"data-bs-offset="50" class="body">
 <!--Start of Jumbotron-->
   <div class="jumbotron d-flex flex-row bd-highlight m-3 jumbotron-fluid">
-      <img class="flower p-2 mx-auto d-block img-thumbnail float-left" src="/assets/flower.png" />
+      <!--<img class="flower p-2 mx-auto d-block img-thumbnail float-left" src="/assets/flower.png" />-->
       <div class="container justify-content-center">
         <h1 class="header-padding mobile-max-width display-1 p-2 bd-highlight text-center "><b>Tyler & Natalia</b></h1>
         <p class="lead text-center flex-column bd-highlight rose-text-color">Join us for our special day on May 1st, 2023.   Please RSVP by April 1st, 2023. </p>
       </div>
-        <img class="flower mx-auto d-block img-thumbnail " src="/assets/flower.png"/>
+        <!--<img class="flower mx-auto d-block img-thumbnail " src="/assets/flower.png"/>-->
   </div>
   <hr class="hidden-nonmobile">
 <!--Ending of Jumbotron-->
@@ -30,17 +30,12 @@
             <a class="nav-link" aria-current="page" href="#info"><b>Info</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#ourStory"><b>Our Story</b></a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#RSVP"><b>RSVP</b></a>
-          </li>
+          </li>          
           <li class="nav-item">
             <a class="nav-link" href="#"><b>Stays</b></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><b>Directions</b></a>
-          </li>
+
         </ul>
       </div>
     </div>
@@ -84,15 +79,8 @@
         </div>
       </div>
       <div class="mb-2">
-        <label for="partySize" class="form-label">Party Size</label>
-        <select class="form-select" aria-label="Default select example" id="partySize">
-          <option selected>-</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5+</option>
-        </select>
+        <label for="partySize" class="form-label">Party Members</label>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
       </div>
       <button class="btn btn-outline-light rsvp" >RSVP</button>
     </form>
