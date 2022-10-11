@@ -51,14 +51,14 @@
     background-color: #0C2340;
 }
 .nav-link {
-    color: rosybrown;
+    color: rosybrown !important;
 }
 .space-divider {
     width: 10%;
 }
 
 .nav-link:hover {
-    color: #0C2340;
+    color: #0C2340 !important;
     background-color: rosybrown;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
@@ -116,6 +116,36 @@
     .body {
         margin: 15px;
     }
+    .carousel-img {
+        border-radius: 12px;
+        height: 30rem !important;
+        object-fit: cover;
+    }
+    .Venue-header{
+        font-size: 3.5rem !important;
+        border-bottom: 2px solid #0C2340;
+    }
+    .carousel-text-mobile{
+        font-size: 2rem;
+        text-align: center !important;
+        color:white;
+        text-shadow: 2px 2px black;
+        position: absolute;
+        z-index: 3;
+        padding-top: 125%;
+        margin: auto;
+        width: 100%;
+        display:block !important;
+    }
+    .venue-text-info p {
+        font-size: 2rem !important;
+    }
+    
+    .venue-text-info h1 {
+        font-size: 2.5rem !important;
+        font-weight: 600;
+        color: black;
+    }
 }
 .card {
     margin: 0 auto;
@@ -138,6 +168,54 @@ form {
     font-size: xx-large;
     width: 12rem;
 }
+.book-now-btn:active{
+    color: black;
+}
 .footer {
     background-color: rosybrown;
+}
+
+.carousel-text {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.carousel-img {
+    border-radius: 12px;
+    height: 50rem;
+    object-fit: cover;
+}
+.Venue-header{
+    font-size: 5rem;
+    border-bottom: 2px solid #0C2340;
+}
+.carousel-inner {
+    align-content: center !important;
+}
+.venue-text-info {
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: white;
+    padding: 20px;
+
+}
+.venue-text-info p {
+    font-size: 2rem;
+}
+
+.venue-text-info h1 {
+    font-size: 5rem;
+}
+.carousel-text-mobile {
+    display: none;
+}
+.venue-text-break{
+    margin-left: 5%;
+    padding-left: 10%;
+}
+.maps-container {
+    background-color: #0C2340;
+    padding:20px;
+    color: white;
+    font-size: 5rem;
 }
