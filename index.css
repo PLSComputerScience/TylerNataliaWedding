@@ -217,5 +217,8 @@ form {
     background-color: #0C2340;
     padding:20px;
     color: white;
-    font-size: 5rem;
+}
+.form-heading {
+    color: white;
+    font-size: 3rem;
 }
