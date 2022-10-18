@@ -5,7 +5,7 @@
     $includedParty = $mysqli->real_escape_string(implode(" ", $_POST['includedParty']));
 
     //database conneciton
-    $server = '73.25.28.229';
+    $server = '73.25.28.229:3306';
     $username = 'remoteConnection';
     $password = 'remoteAccessWedding';
     $database = 'wedding';
